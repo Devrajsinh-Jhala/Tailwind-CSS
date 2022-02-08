@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="microsoft-icon.ico" sizes="16x16" type="image/png" />
+    <title>Microsoft Clone</title>
+  </head>
+  <body>
+    <div class="container mx-auto">
+      <!-- Navbar -->
+      <div class="navbar flex justify-between items-center p-2">
+        <div class="flex justify-center items-center md:order-2">
+          <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          </div>
+          <div class="search md:hidden w-4 mr-4">
+            <img src="search.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="logo text-center flex md:order-1">
+          <div class="w-40 flex justify-start">
+            <img class="w-3/4" src="microsoft-logo.png" alt="" />
+          </div>
+
+          <div
+            class="nav absolute md:static w-fit md:w-auto inset-0 md:flex md:mx-4 md:space-x-3 -translate-x-96 md:translate-x-0 md:items-center"
+          >
+            <div
+              class="nav-items hover:underline underline-offset-8 cursor-pointer"
+            >
+              Microsoft 365
+            </div>
+            <div
+              class="nav-items hover:underline underline-offset-8 cursor-pointer"
+            >
+              Office
+            </div>
+            <div
+              class="nav-items hover:underline underline-offset-8 cursor-pointer"
+            >
+              Windows
+            </div>
+            <div
+              class="nav-items hover:underline underline-offset-8 cursor-pointer"
+            >
+              Surface
+            </div>
+            <div
+              class="nav-items hover:underline underline-offset-8 cursor-pointer"
+            >
+              Xbox
+            </div>
+            <div
+              class="nav-items hover:underline underline-offset-8 cursor-pointer"
+            >
+              Support
+            </div>
+          </div>
+        </div>
+        <div class="logo text-center md:order-3 flex">
+          <div class="search hidden md:block w-4 mx-4">
+            <img class="mt-[6px] cursor-pointer" src="search.svg" alt="" />
+          </div>
+          <div class="flex">
+            <img
+              class="px-1 cursor-pointer"
+              src="iconmonstr-shopping-cart-3.svg"
+              alt=""
+            />
+            <img
+              class="px-1 mr-10 cursor-pointer"
+              src="account-svgrepo-com.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider -->
+      <div class="slider flex flex-col-reverse md:flex-row">
+        <div
+          class="left flex flex-col justify-center bg-[#e8e8e8] items-center md:items-baseline"
+        >
+          <div class="text-4xl font-semibold mx-5">Microsoft 365</div>
+          <p class="mx-5 text-center md:text-left">
+            Premium Office apps, extra cloud storage, advanced security, and
+            more – all in one convenient subscription
+          </p>
+          <div
+            class="md:flex md:flex-row md:justify-center md:items-center mt-3"
+          >
+            <button
+              class="bg-black text-white p-3 my-2 cursor-pointer flex justify-between mx-5"
+            >
+              <p class="hover:underline font-bold">For Up to 6 people</p>
+              <span class="text-white px-2">></span>
+            </button>
+            <button
+              class="bg-[#e8e8e8] p-3 cursor-pointer flex justify-between mx-5"
+            >
+              <p class="hover:underline font-bold">For 1 person</p>
+              <span class="px-2">></span>
+            </button>
+          </div>
+        </div>
+        <div class="right">
+          <img class="w-[50rem]" src="Slider-Image.jfif" alt="" />
+        </div>
+      </div>
+
+      <div
+        class="promo space-y-6 mt-20 flex flex-col lg:flex-row justify-center"
+      >
+        <!-- Item 1 -->
+        <div class="item-1 flex items-center mt-6 mx-4 space-x-2 md:flex-col">
+          <img class="w-[20px] md:w-[40px]" src="Win10.png" alt="" />
+          <p
+            class="font-semibold hover:underline cursor-pointer md:w-[8rem] md:text-center"
+          >
+            Choose your Microsoft 365
+          </p>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="item-2 flex items-center mx-4 space-x-2 md:flex-col">
+          <img class="w-[20px] md:w-[40px]" src="Tab.webp" alt="" />
+          <p
+            class="font-semibold hover:underline cursor-pointer md:w-[8rem] md:text-center"
+          >
+            Choose your Microsoft 365
+          </p>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="item-3 flex items-center mx-4 space-x-2 md:flex-col">
+          <img class="w-[20px] md:w-[40px]" src="Xbox.webp" alt="" />
+          <p
+            class="font-semibold hover:underline cursor-pointer md:w-[8rem] md:text-center"
+          >
+            Choose your Microsoft 365
+          </p>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="item-4 flex items-center mx-4 space-x-2 md:flex-col">
+          <img class="w-[20px] md:w-[40px]" src="Win11.png" alt="" />
+          <p
+            class="font-semibold hover:underline cursor-pointer md:w-[8rem] md:text-center"
+          >
+            Choose your Microsoft 365
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
